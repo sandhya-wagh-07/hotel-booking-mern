@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://vercel.com/sandhya-waghmare/hotel-booking-mern",
+        target: "https://hotel-booking-mern-sand.vercel.app",
         changeOrigin: true,
         secure: false,
       },
