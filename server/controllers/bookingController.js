@@ -117,6 +117,7 @@ export const getUserBookings = async(req,res)=>{
 }
 
 
+
 // API to get booking details for a particular hotel owner
 export const getHotelBookings = async(req,res)=>{
     try {
